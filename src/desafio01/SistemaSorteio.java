@@ -9,7 +9,7 @@ public class SistemaSorteio {
         int valormenor = valor - 1;
         int valormaior = valor + 1;
         int pontuacao = 0;
-
+        System.out.println("=*=* TESTE SUAS CHANCES DE ACERTAR =*=*");
         Scanner numInformado = new Scanner(System.in);
         System.out.print("Escolha um número de 1 a " + possibilidades + ": ");
         int num = numInformado.nextInt();
